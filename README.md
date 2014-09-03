@@ -1,2 +1,2 @@
-ecse321tutorials
+ECSE 321 Tutorials
 ================
