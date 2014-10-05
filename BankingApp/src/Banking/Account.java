@@ -1,8 +1,8 @@
 package Banking;
 
 public class Account {
-	private int mCash;
-	private String mPassword;
+	protected int mCash;
+	protected String mPassword;
 	
 	public Account(int initCash, String newPassword){
 		mCash = initCash;
