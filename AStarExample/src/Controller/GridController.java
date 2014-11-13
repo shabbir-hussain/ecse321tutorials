@@ -45,20 +45,36 @@ public class GridController extends GridPanel {
 		this.addMouseListener(new gridMouseListener());
 				
 	}
-	
+	/**
+	 * Getter for panel
+	 * @return returns a panel
+	 */
 	public GridPanel getPanel(){
 		return this;
 	}
 	
+	/**
+	 * Sets the Start box to search from
+	 * @param x start x position
+	 * @param y start y position
+	 */
 	public void setStart(int x, int y){
 		bStart.x = x*10;
 		bStart.y = y*10;
 	}
+	/**
+	 * Sets the end position to search to
+	 * @param x the goal node x position
+	 * @param y the goal node y position
+	 */
 	public void setEnd(int x, int y){
 		bEnd.x = x*10;
 		bEnd.y = y*10;
 	}
 	
+	/**
+	 * Resets the searched path 
+	 */
 	public void ResetPath(){
 		
 		//reset path
@@ -67,7 +83,9 @@ public class GridController extends GridPanel {
 		this.repaint();
 	}
 	
-	
+	/**
+	 * Searches for a path from start to end
+	 */
 	public void SearchForPath(){
 		
 		GNode goalNode = AStar();

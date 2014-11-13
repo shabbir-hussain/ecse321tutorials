@@ -1,7 +1,11 @@
 package Utils;
 
 import Model.Box;
-
+/**
+ * The GNode is a helper class for graph searching
+ * @author Shabbir
+ *
+ */
 public class GNode {
 
 	public Box bCurrent;

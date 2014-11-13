@@ -1,5 +1,8 @@
 package View;
-
+/**
+ * The Window class is the wrapper around the JFrame
+ * @author Shabbir
+ */
 import javax.swing.BoxLayout;
 import javax.swing.JFrame;
 

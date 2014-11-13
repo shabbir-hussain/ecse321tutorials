@@ -32,6 +32,10 @@ public class MenuController extends MenuPanel {
 		 
 	}
 	
+	/**
+	 * Getter for this class
+	 * @return returns a panel
+	 */
 	public MenuPanel getPanel(){
 		return this;
 	}

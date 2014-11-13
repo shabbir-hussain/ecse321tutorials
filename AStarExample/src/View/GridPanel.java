@@ -1,5 +1,7 @@
 package View;
-
+/** 
+ * The GridPanel class is the view for the grid
+ */
 import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.Graphics;
